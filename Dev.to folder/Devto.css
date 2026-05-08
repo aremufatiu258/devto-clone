@@ -1,0 +1,114 @@
+body {
+   margin: 0;
+   background-color: #d6e4ee;
+}
+
+#header-wrapper {
+   background-color: white;
+}
+#header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 50px;
+   width: 80%;
+   margin: auto;
+}
+
+#logo-search {
+   display: flex;
+}
+
+#logo {
+   width: 50px;
+}
+
+#header input {
+   width: 300px;
+   margin-left: 10px;
+   font-size: 18px;
+   padding: 10px;
+   border-radius: 5px;
+   border: 1px solid lightgrey;
+}
+
+button {
+   font-size: 18px;
+   color: blue;
+   border: 1px solid blue;
+   border-radius: 5px;
+   padding: 10px 20px;
+   background-color: white;
+}
+
+#hide-btn {
+   color: darkred;
+   border: 1px solid darkred;
+}
+
+#save-btn {
+   color: darkgreen;
+   border: 1px solid darkgreen;
+}
+
+button:hover {
+   cursor: pointer;
+}
+
+#post-form {
+   padding: 10px;
+   max-width: 300px;
+   margin: auto;
+   display: none;
+   /* border: 1px solid black; */
+}
+#post-form input, textarea {
+   width: 100%;
+   margin: 5px 0 20px 0;
+   padding: 10px;
+}
+
+#main-section {
+   display: flex;
+   width: 80%;
+   margin: 15px auto;
+}
+
+#article-section {
+   width: 70%;
+   background-color: white;
+}
+
+#article-section div {
+   padding: 15px;
+}
+
+#article-cover {
+   width: 100%;
+}
+
+.article-info {
+   color: grey;
+}
+
+#side-section {
+   width: 30%;
+   margin-left: 15px;
+}
+#side-section div {
+   padding: 5px 15px 20px 20px;
+   background-color: white;
+   margin-bottom: 15px;
+}
+
+a {
+   color: blue;
+   font-size: 10px;
+}
+
+#footer {
+   display: flex;
+   justify-content: center;
+   height: 50px;
+   background-color: white;
+}

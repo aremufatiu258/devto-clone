@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Why learn DevOps</title>
+      <link rel="stylesheet" href="Devto.css">
+      <link rel="icon" type="image/png" href="../favicon/favicon-96x96.png" sizes="96x96" />
+      <link rel="icon" type="image/svg+xml" href="../favicon/favicon.svg" />
+      <link rel="shortcut icon" href="../favicon/favicon.ico" />
+      <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png" />
+      <link rel="manifest" href="../favicon/site.webmanifest" />
+      <meta name="keyword" content="devops, learn devops, engineering">
+      <meta name="description" content="tech articles about DevOps">
+
+      <script src="Devto.js"></script>
+   </head>
+
+   <body>
+      <div id="header-wrapper">
+         <div id="header">
+            <div id="logo-search">
+               <img id="logo" src="../images/logo.webp"/>
+               <input type="text" placeholder="Search..."/>
+            </div>
+            <button onclick="handlecreatePost()">Create Post</button>
+         </div>
+      </div>
+
+      <div id="post-form">
+         <form>
+            <label><b>Title</b></label>
+            <input type="text" placeholder="Enter title">
+
+            <label><b>Description</b></label>
+            <input type="text" placeholder="Enter description">
+
+            <label><b>Post</b></label>
+            <textarea placeholder="Your post..."></textarea>
+
+            <button id="hide-btn" onclick="handlehidePostForm()">Hide form</button>
+            <button id="save-btn">Save form</button>
+         </form>
+      </div>
+
+      <div id="main-section">
+         <div id="article-section">
+            <img id="article-cover" src="../images/cover.png"/>
+            <div>
+               <h1>Article title</h1>
+               <h3>short information on article</h3>
+               <p class="article-info"><i>written by: Nana Janashia</i></p>
+               <p class="article-info"><i>date: 2022.10.21</i></p>
+            </div>
+
+            <div>
+               <p>paragraph 1</p>
+               <p>paragraph 2</p>
+
+               <h4>Section header</h4>
+               <p>paragraph 1</p>
+               <ul>
+                  <li>item 1</li>
+                  <li>item 2</li>
+                  <li>item 3</li>
+               </ul>
+            </div>
+         </div>
+      
+         <div id="side-section">
+            <div>
+               <h2>Side section</h2>
+               <h3>Another article title</h3>
+               <h4>Another article short info</h4>
+               <a href="https://dev.to/">Click to see article</a>
+            </div>
+
+            <div>
+               <h2>Also Side section</h2>
+               <h3>article title</h3>
+               <h4>short description</h4>
+               <a href="https://en.wikipedia.org/wiki/DevOps">Click to see article</a>
+            </div>
+         </div>
+      </div>
+
+      <div id="footer">
+         <p>
+            This is a footer
+         </p>
+      </div>
+   </body>
+
+</html>
