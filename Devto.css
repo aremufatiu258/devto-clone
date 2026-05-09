@@ -112,3 +112,31 @@ a {
    height: 50px;
    background-color: white;
 }
+
+@media (max-width: 768px) {
+   #header {
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+   }
+
+   #logo-search {
+      margin-bottom: 10px;
+   }
+
+   #main-section {
+      flex-direction: column;
+      width: 95%;
+   }
+
+   #article-section {
+      width: 100%;
+      margin-left: 0;
+      margin-bottom: 15px;
+   }
+
+   #side-section {
+      width: 100%;
+      margin-left: 0;
+   }
+}
